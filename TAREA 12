@@ -1,14 +1,14 @@
 import numpy as np
 
 # Definir el número de ciudades, días de la semana y semanas
-num_ciudades = 3
-num_dias = 7
+num_ciudades = 2
+num_dias = 5
 num_semanas = 4
 
 # Crear una matriz 3D con datos aleatorios de temperaturas
 # Nota: Para simplicidad, generamos temperaturas entre 15 y 30 grados Celsius
 np.random.seed(0)  # Para reproducibilidad
-temperaturas = np.random.randint(15, 31, (num_ciudades, num_dias, num_semanas))
+temperaturas = np.random.randint(16, 30, (num_ciudades, num_dias, num_semanas))
 
 # Mostrar la matriz creada
 print("Matriz de temperaturas (ciudad x día x semana):")
